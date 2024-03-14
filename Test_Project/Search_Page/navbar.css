@@ -1,0 +1,71 @@
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #FFE6E6;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+}
+
+.action-btn{
+    background-color: #E1AFD1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action-btn:hover{
+    scale: 1.05;
+    color: #fff;
+}
+
+.action-btn:active{
+    scale: 0.95;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #333; /* Change background color */
+}
+
+.dropdown-menu a {
+    color: #AD88C6; /* Change text color */
+}
+
+.dropdown-menu a:hover {
+    color: #AD88C6;
+    background-color: #FFE6E6; /* Change background color on hover */
+}
+
+.background-container {
+    background-image: url('https://i.pinimg.com/564x/11/fe/1a/11fe1a50209fdc2ed171d31e9db6e22c.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Cubre todo el contenedor */
+    opacity: 0.5; /* Cambia este valor para ajustar la opacidad */
+    position: fixed; /* Fija la posición para que cubra toda la ventana */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca el contenedor detrás de otros elementos */
+}
+
+.card{
+    opacity: 1;
+}
